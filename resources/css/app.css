@@ -7,3 +7,7 @@
     min-width: 100vh;
     position: relative;
 }
+
+.p-color {
+    color: #0113a4 !important;
+}

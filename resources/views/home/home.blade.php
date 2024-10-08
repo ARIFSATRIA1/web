@@ -8,21 +8,26 @@
     <main>
         <section>
             <div class="d-flex align-items-center justify-content-center">
-                <div>
-                    <div class="d-flex justify-content-center flex-column">
-                        <div class="d-flex flex-row px-5">
-                            <img class="px-1" src="/img/instagram.png" alt="">
-                            <img class="px-1" src="/img/tiktok.png" alt="">
-                            <p class="text-primary px-1 text-align-center position-relative">dbacademy.id</p>
-                        </div>
-                        <div>
-                            <div class="position-relative" style="width: 100%; height: auto;">
-                                <!-- Positioning the text inside the image -->
-                                <img src="/img/bg-main.png" class="bg-primary rounded-5 w-100" style="background-size: cover;" alt="">
-                                <div class="position-absolute top-50 start-50 translate-middle text-center">
-                                    <h1 class="text-white">Transform</h1>
-                                    <h2 class="text-white">Your Potential Into Reality With Us</h2>
-                                </div>
+                <img src="/img/Banner.png" class="img-fluid" alt="">
+            </div>
+            <div class="d-flex justify-content-evenly flex-row pt-5 img-fluid container">
+                <div class="row">
+                    <div class="col">
+                        <img src="/img/group2.png" class="rounded-5 img-fluid mt-5" alt="">
+                    </div>
+                    <div class="d-flex justify-content-center flex-column pl-5 col">
+                        <h1 class="text-dark text-start">Tentang Kami</h1>
+                        <img src="/img/main-content.png" style="max-width: 100%; max-height:100%;" class="rounded-5" alt="">
+                        <div class="bg-warning rounded-5 d-flex flex-column justify-content-start text-left mt-5 pt-5 ">
+                            <div class="text-start">
+                                <pre class="text-start" style="color: #0113A4">
+    Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami 
+    berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia
+
+    Kami memberikan fasilitas seperti program, kelas, dan forum yang 
+    ditawarkan agar generasi muda Indonesia memiliki bekal dengan 
+    keterampilan yang relevan di dunia industry saat ini
+                                  </pre>
                             </div>
                         </div>
                     </div>
