@@ -34,5 +34,77 @@
                 </div>
             </div>
         </section>
+
+        <section class="my-5" style="background-color: #0113A5; background-size: cover; background-position: center; height:60vh; background-repeat: no-repeat; position: relative;">
+            <div class="overlay"></div>
+            <h1 class="text-center text-white pt-5">DB Academy Tawarkan</h1>
+            <div class="d-flex align-justify-content-center">
+                <div class="container pt-5 d-flex align-items-center">
+                    <div class="row">
+                
+                        <div class="col d-flex justify-content-center">
+                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
+                                <img src="/img/icon_intern.png" class="rounded-circle" alt="...">
+                                <div class="card-body text-white">
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Internship Program</h5>
+                                    <p class="card-text">Program magang dengan real project yang bisa mengasah kemampuan Anda.</p>
+                                </div>
+                            </div>
+                        </div>
+            
+                  
+                        <div class="col bg-transparent d-flex justify-content-center">
+                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle" alt="...">
+                                <div class="card-body text-white">
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Group Project</h5>
+                                    <p class="card-text">
+                                        Internship group project berbagai role 
+                                        position bisa dipilih melalui program </p>
+                                </div>
+                            </div>
+                        </div>
+            
+               
+                        <div class="w-100"></div>
+            
+                        <div class="col d-flex justify-content-center">
+                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle" alt="...">
+                                <div class="card-body text-white">
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Kelas Coding</h5>
+                                    <p class="card-text">
+                                        Program coding yang dibentuk 
+                                        untuk anak usia dini melalui 
+                                        program DB EDU
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        
+                        <div class="col d-flex justify-content-center">
+                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
+                                <img src="/img/icon_bootcamp.png" class="rounded-circle" alt="...">
+                                <div class="card-body text-white">
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Bootcamp</h5>
+                                    <p class="card-text">
+                                        Program kelas online dengan mentor 
+                                        dari DB Academy dan luar yang 
+                                        sudah expert di bidangnya
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                
+        </section>        
     </main>
+
+    <section>
+        @include('home.templates.footer')
+    </section>
 @endsection
