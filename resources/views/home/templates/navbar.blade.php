@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <img src="/img/Logo.png" alt="">
       <div class="collapse navbar-collapse d-flex justify-content-center text-primary" id="navbarNav">
-        <ul class="navbar-nav text-primary mx-3" >
+        <ul class="navbar-nav text-primary mx-3 fs-5" >
           <li class="nav-item mx-3">
             <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
           </li>

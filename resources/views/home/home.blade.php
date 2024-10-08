@@ -12,13 +12,13 @@
             </div>
             <div class="d-flex justify-content-evenly flex-row pt-5 img-fluid container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col col-lg-5">
                         <img src="/img/group2.png" class="rounded-5 img-fluid mt-5" alt="">
                     </div>
                     <div class="d-flex justify-content-center flex-column pl-5 col">
-                        <h1 class="text-dark text-start">Tentang Kami</h1>
+                        <h1 class="text-start text-secondary">Tentang Kami</h1>
                         <img src="/img/main-content.png" style="max-width: 100%; max-height:100%;" class="rounded-5" alt="">
-                        <div class="bg-warning rounded-5 d-flex flex-column justify-content-start text-left mt-5 pt-5 ">
+                        <div class="bg-warning rounded-5 d-flex flex-column justify-content-start text-left mt-3 pt-5 pb-2 pr-5">
                             <div class="text-start">
                                 <pre class="text-start" style="color: #0113A4">
     Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami 
