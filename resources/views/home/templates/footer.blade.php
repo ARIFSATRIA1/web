@@ -1,4 +1,4 @@
-<footer style="background-color: #0113A5; background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
+<footer class="background-content" style="background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
     <div class="overlay"></div>
         <div class=" d-flex align-items-center justify-content-center flex-column mt-5">
             <div>

@@ -124,6 +124,31 @@
             color: #424242;
             margin: 0 280px 0 280px !important;
         }
+
+        .skill-highlight {
+            background: linear-gradient(160deg, rgba(37,133,243,1) 35%, rgba(1,19,165,1) 100%);
+            color: #ffd700;
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+        }
+
+        .background-span {
+            color: #0055ff;
+            font-weight: bold;
+        }
+
+        .background-container {
+            display: inline-flex;
+            align-items: center;
+            overflow: hidden; /* Ensures it looks like one piece */
+            background: linear-gradient(160deg, rgba(249,232,28,1) 35%, rgba(243,185,23,1) 100%);
+            position: relative;
+             display: inline-flex;
+        }
+
+        .background-content {
+            background: linear-gradient(160deg, rgba(37,133,243,1) 35%, rgba(1,19,165,1) 100%);
+        }
     </style>
 </head>
 

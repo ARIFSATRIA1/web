@@ -34,7 +34,7 @@
             </div>
         </section>
 
-        <section class="bg-primary mt-5" style="background-size: cover; position: relative; display:inherit">
+        <section id="dbAcademyOffer" class="background-content mt-5" style="background-size: cover; position: relative; display:inherit">
             <h1 class="text-center pt-5">DB Academy Tawarkan</h1>
                 <div class="container pt-5 pb-5">
                     <div class="row d-flex justify-content-center align-items-center">
@@ -94,6 +94,83 @@
                     </div>
                 </div>   
         </section>
+
+        <section>
+            <div class="container d-flex flex-column align-items-center mt-5">
+                <div class="background-container rounded-5  d-flex align-items-center mb-5">
+                    <h3 class="py-2 pr-3 text-center">
+                        <span class="background-content p-5 rounded-circle text-warning">Skill</span>
+                        <span class="text-primary px-2">yang didapat</span>
+                    </h3>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div>                        
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto py-2" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                    <div class="col-6 col-md-2">
+                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
+                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
+                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
+    {{-- @include('home.templates.footer') --}}
 @endsection
