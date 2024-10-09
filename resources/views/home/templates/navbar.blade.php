@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-white p-5">
+<nav class="navbar navbar-expand-lg bg-body-white p-5 ">
     <div class="container-fluid">
       <img src="/img/Logo.png" alt="">
       <div class="collapse navbar-collapse d-flex justify-content-center text-primary" id="navbarNav">

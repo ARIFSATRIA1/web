@@ -7,76 +7,71 @@
 
     <main>
         <section>
-            <div class="d-flex align-items-center justify-content-center">
-                <img src="/img/Banner.png" class="img-fluid" alt="">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <img src="/img/Banner.png" class="img-fluid" style="min-height: 15rem" alt="">    
             </div>
-            <div class="d-flex justify-content-evenly flex-row pt-5 img-fluid container">
-                <div class="row">
-                    <div class="col col-lg-5">
-                        <img src="/img/group2.png" class="rounded-5 img-fluid mt-5" alt="">
-                    </div>
-                    <div class="d-flex justify-content-center flex-column pl-5 col">
-                        <h1 class="text-start text-secondary">Tentang Kami</h1>
-                        <img src="/img/main-content.png" style="max-width: 100%; max-height:100%;" class="rounded-5" alt="">
-                        <div class="bg-warning rounded-5 d-flex flex-column justify-content-start text-left mt-3 pt-5 pb-2 pr-5">
-                            <div class="text-start">
-                                <pre class="text-start" style="color: #0113A4">
-    Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami 
-    berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia
+        </section>      
 
-    Kami memberikan fasilitas seperti program, kelas, dan forum yang 
-    ditawarkan agar generasi muda Indonesia memiliki bekal dengan 
-    keterampilan yang relevan di dunia industry saat ini
-                                  </pre>
-                            </div>
-                        </div>
+        <section>
+            <div class="container-fluid mt-5">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-end">
+                        <img src="/img/group2.png" class="img-fluid rounded-3" alt="">
+                    </div>
+                    <div class="col-md-6 ">
+                        <h1 class="text-secondary">Tentang Kami</h1>
+                        <img src="/img/main-content.png" style="min-width: 95%" class="img-fluid rounded-3" alt="">
+                        <p class="bg-warning py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: block; max-width:95%">
+                            Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
+                            berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
+                            <br>
+                            Kami memberikan fasilitas seperti program, kelas, dan forum yang <br>
+                            ditawarkan agar generasi muda Indonesia memiliki bekal dengan <br>
+                            keterampilan yang relevan di dunia industry saat ini <br>
+                        </p>                        
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="my-5" style="background-color: #0113A5; background-size: cover; background-position: center; height:60vh; background-repeat: no-repeat; position: relative;">
-            <div class="overlay"></div>
-            <h1 class="text-center text-white pt-5">DB Academy Tawarkan</h1>
-            <div class="d-flex align-justify-content-center">
-                <div class="container pt-5 d-flex align-items-center">
-                    <div class="row">
+        <section class="bg-primary mt-5" style="background-size: cover; position: relative; display:inherit">
+            <h1 class="text-center pt-5">DB Academy Tawarkan</h1>
+                <div class="container pt-5 pb-5">
+                    <div class="row d-flex justify-content-center align-items-center">
                 
                         <div class="col d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
-                                <img src="/img/icon_intern.png" class="rounded-circle" alt="...">
+                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_intern.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
                                 <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Internship Program</h5>
-                                    <p class="card-text">Program magang dengan real project yang bisa mengasah kemampuan Anda.</p>
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline">Internship Program</h5>
+                                    <p class="card-text">Program magang dengan real <br>project yang bisa <br> mengasah</p>
                                 </div>
                             </div>
                         </div>
             
                   
                         <div class="col bg-transparent d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
-                                <img src="/img/icon_kelas.png" class="rounded-circle" alt="...">
+                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
                                 <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Group Project</h5>
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline;">Group Project</h5>
                                     <p class="card-text">
-                                        Internship group project berbagai role 
+                                        Internship group project berbagai role <br>
                                         position bisa dipilih melalui program </p>
                                 </div>
                             </div>
                         </div>
-            
-               
                         <div class="w-100"></div>
             
                         <div class="col d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
-                                <img src="/img/icon_kelas.png" class="rounded-circle" alt="...">
+                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
                                 <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Kelas Coding</h5>
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline;">Kelas Coding</h5>
                                     <p class="card-text">
-                                        Program coding yang dibentuk 
-                                        untuk anak usia dini melalui 
-                                        program DB EDU
+                                        Program coding yang dibentuk <br>
+                                        untuk anak usia dini melalui <br>
+                                        program DB EDU <br>
                                     </p>
                                 </div>
                             </div>
@@ -84,27 +79,21 @@
             
                         
                         <div class="col d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent w-50 h-50" style="border: none;">
-                                <img src="/img/icon_bootcamp.png" class="rounded-circle" alt="...">
+                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_bootcamp.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
                                 <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center">Bootcamp</h5>
+                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline;">Bootcamp</h5>
                                     <p class="card-text">
-                                        Program kelas online dengan mentor 
-                                        dari DB Academy dan luar yang 
-                                        sudah expert di bidangnya
+                                        Program kelas online dengan mentor <br>
+                                        dari DB Academy dan luar yang <br>
+                                        sudah expert di bidangnya <br>
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            
-                
-        </section>        
+                </div>   
+        </section>
     </main>
 
-    <section>
-        @include('home.templates.footer')
-    </section>
 @endsection

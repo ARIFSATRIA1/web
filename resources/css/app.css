@@ -15,3 +15,25 @@
 .footer-links {
     text-decoration: none;
 }
+
+html {
+    font-size: 20rem;
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 10px;
+    }
+}
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 30%;
+    }
+}
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 62.5%;
+    }
+}
