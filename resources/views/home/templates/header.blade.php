@@ -140,7 +140,7 @@
         .background-container {
             display: inline-flex;
             align-items: center;
-            overflow: hidden; /* Ensures it looks like one piece */
+            overflow: hidden; 
             background: linear-gradient(160deg, rgba(249,232,28,1) 35%, rgba(243,185,23,1) 100%);
             position: relative;
              display: inline-flex;
@@ -149,11 +149,19 @@
         .background-content {
             background: linear-gradient(160deg, rgba(37,133,243,1) 35%, rgba(1,19,165,1) 100%);
         }
+
+        .background-gradient-yellow {
+            background: linear-gradient(160deg, rgba(249,232,28,1) 35%, rgba(243,185,23,1) 100%);
+        }
     </style>
 </head>
 
 <body class="roboto-regular fw-semibold">
     @yield('content')
 </body>
+
+<footer>
+@yield('footer')
+</footer>
 
 </html>

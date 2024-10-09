@@ -1,15 +1,14 @@
-<footer class="background-content" style="background-size: cover; background-position: center; background-repeat: no-repeat; position: relative;">
-    <div class="overlay"></div>
+<footer class="background-content" style="background-size: cover; background-position: center;">
         <div class=" d-flex align-items-center justify-content-center flex-column mt-5">
-            <div>
+            <div class="">
                 <img src="/img/Logo-2.png" class="img-fluid pt-5"  alt="">
                 </div>
-                <div class="container d-flex justify-content-around py-5">
-                    <div class="row">
-                        <a class="col-sm mx-5 text-white text-decoration-none" href="">Home</a>
-                        <a class="col-sm mx-5 text-white text-decoration-none" href="">About</a>
-                        <a class="col-sm mx-5 text-white text-decoration-none" href="">Blog</a>
-                        <a class="col-sm mx-5 text-white text-decoration-none" href="">Contact</a>
+                <div class="container-fluid py-5">
+                    <div class="row d-flex  justify-content-center">
+                        <a class="col-2 col-md-1 text-white text-decoration-none tex-start" href="">Home</a>
+                        <a class="col-2 col-md-1 text-white text-decoration-none" href="">About</a>
+                        <a class="col-2 col-md-1 text-white text-decoration-none" href="">Blog</a>
+                        <a class="col-2 col-md-1 text-white text-decoration-none" href="">Contact</a>
                     </div>
                 </div>
     </div>

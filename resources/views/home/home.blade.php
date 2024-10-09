@@ -170,7 +170,41 @@
         </section>
 
 
+        <section class="my-5">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-5">
+                        <img src="/img/Bintang.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-7 align-items-center">
+                        <div class="d-flex flex-column"></div>
+                        <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%"> 
+                            <span> Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
+                                berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br></span>
+                        </p> 
+                        <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%">
+                            Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
+                            berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
+                        </p> 
+                        <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%">
+                            Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
+                            berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
+                        </p> 
+                        <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%">
+                            Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
+                            berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
+                        </p> 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
     </main>
 
-    {{-- @include('home.templates.footer') --}}
+    <section class="mt-5">
+        @include('home.templates.footer')
+    </section>
+
+    
 @endsection
