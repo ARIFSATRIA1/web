@@ -1,22 +1,29 @@
-<nav class="navbar navbar-expand-lg bg-body-white p-5 ">
-    <div class="container-fluid">
-      <img src="/img/Logo.png" alt="">
-      <div class="collapse navbar-collapse d-flex justify-content-center text-primary" id="navbarNav">
-        <ul class="navbar-nav text-primary mx-3 fs-5" >
-          <li class="nav-item mx-3">
-            <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link active text-primary" href="#">Features</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link active text-primary" href="#">Pricing</a>
-          </li>
-          <li class="nav-item mx-3">
-            <a class="nav-link active text-primary" href="#">Disabled</a>
-          </li>
-        </ul>
+<nav class="navbar navbar-expand-lg bg-body-white p-5">
+  <div class="container-fluid">
+      <img src="/img/Logo.png" alt="Logo" class="navbar-brand">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto fs-5">
+              <li class="nav-item mx-3">
+                  <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link active text-primary" href="#">About</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link active text-primary" href="#">Blog</a>
+              </li>
+              <li class="nav-item mx-3">
+                  <a class="nav-link active text-primary" href="#">Contact</a>
+              </li>
+          </ul>
+          <div class="d-flex">
+              <button class="btn rounded-pill background-gradient-yellow" type="button">Sign Up</button>
+          </div>
       </div>
-      <button class="btn rounded-pill bg-warning" type="submit">Sign Up</button>
-    </div>
-  </nav>
+  </div>
+</nav>

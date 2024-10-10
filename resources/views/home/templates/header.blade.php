@@ -114,6 +114,13 @@
 
         }
 
+        @media (max-width: 450px) {
+            html {
+                font-size: 55%;
+            }
+
+            
+            }
 
         ::placeholder {
             color: white !important;
@@ -153,12 +160,123 @@
         .background-gradient-yellow {
             background: linear-gradient(160deg, rgba(249,232,28,1) 35%, rgba(243,185,23,1) 100%);
         }
+        .background-card-dm {
+            background-image: 
+            linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/digital_mkt.png');
+        }
+
+        .background-card-dm:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-cc {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/content_creator.png');
+        }
+
+        .background-card-cc:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-prog {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/programming.png');
+        }
+
+        .background-card-prog:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-ui {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/ui-ux.png');
+        }
+
+        .background-card-ui:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-edtcontent {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/editing_content.png');
+        }
+
+        .background-card-edtcontent:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-journalist {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/journalist.png');
+        }
+
+        .background-card-journalist:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-leadership {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/leadership.png');
+        }
+
+        .background-card-leadership:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-teamwork {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/teamwork.png');
+        }
+
+        .background-card-teamwork:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-strategic {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/strategic_thinking.png');
+        }
+
+        .background-card-strategic:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        .background-card-communication {
+            background-image:
+                linear-gradient(180deg, rgba(37,133,243,0) 0%, rgba(33,119,234,0.020045518207282953) 6%, rgba(6,36,177,0.4682247899159664) 84%, rgba(1,19,165,1) 100%), 
+                url('/img/communication.png');
+        }
+        .background-card-communication:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
     </style>
 </head>
 
 <body class="roboto-regular fw-semibold">
     @yield('content')
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-oBqDVmMz4fnFO9gybNSeRl2R7q/8P5w5NH8g/t8WjTBTk07izN5WgJ5nB3lXwW5a" crossorigin="anonymous"></script>
 
 <footer>
 @yield('footer')

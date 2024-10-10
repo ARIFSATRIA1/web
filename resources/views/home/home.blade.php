@@ -34,41 +34,44 @@
             </div>
         </section>
 
-        <section id="dbAcademyOffer" class="background-content mt-5" style="background-size: cover; position: relative; display:inherit">
-            <h1 class="text-center pt-5">DB Academy Tawarkan</h1>
+        <section id="dbAcademyOffer" class="background-content mt-5" style="position: relative; display:inherit">
+            <h1 class="text-center pt-5">DB Academy <span class="text-warning">Tawarkan</span></h1>
                 <div class="container pt-5 pb-5">
-                    <div class="row d-flex justify-content-center align-items-center">
+                    <div class="row d-flex align-items-center">
                 
-                        <div class="col d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
-                                <img src="/img/icon_intern.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
-                                <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline">Internship Program</h5>
-                                    <p class="card-text">Program magang dengan real <br>project yang bisa <br> mengasah</p>
+                        <div class="col-6 col-sm-6 col-md-6 mb-2 d-flex align-items-center justify-content-center">
+                            <div class="d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle " style="width:6rem; height:6rem;" alt="...">
+                                <div class="text-white">
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Internship Program</h5>
+                                    <p class="mx-2">
+                                        Program magang dengan real <br>
+                                         project <br>
+                                        yang bisa mengasah
+                                    </p>
                                 </div>
                             </div>
                         </div>
-            
                   
-                        <div class="col bg-transparent d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
-                                <img src="/img/icon_kelas.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
-                                <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline;">Group Project</h5>
-                                    <p class="card-text">
+                        <div class="col-6 col-sm-6 col-md-6 mb-2 d-flex align-items-center justify-content-center">
+                            <div class="d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
+                                <div class="text-white">
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Group Project</h5>
+                                    <p class="mx-2">
                                         Internship group project berbagai role <br>
                                         position bisa dipilih melalui program </p>
+                                    </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-100"></div>
             
-                        <div class="col d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
-                                <img src="/img/icon_kelas.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
-                                <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline;">Kelas Coding</h5>
-                                    <p class="card-text">
+                        <div class="col-6 col-sm-6 col-md-6 d-flex align-items-center justify-content-center">
+                            <div class="d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
+                                <div class="text-white">
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Kelas Coding</h5>
+                                    <p class="mx-2">
                                         Program coding yang dibentuk <br>
                                         untuk anak usia dini melalui <br>
                                         program DB EDU <br>
@@ -77,20 +80,20 @@
                             </div>
                         </div>
             
-                        
-                        <div class="col d-flex justify-content-center">
-                            <div class="card d-flex flex-row bg-transparent" style="border: none;">
-                                <img src="/img/icon_bootcamp.png" class="rounded-circle" style="max-block-size: 50%;" alt="...">
-                                <div class="card-body text-white">
-                                    <h5 class="card-title bg-light text-primary w-100 rounded-2 text-center" style="display: inline;">Bootcamp</h5>
-                                    <p class="card-text">
+                        <div class="col-6 col-sm-6 col-md-6  d-flex align-items-center justify-content-center">
+                            <div class="d-flex flex-row bg-transparent" style="border: none;">
+                                <img src="/img/icon_kelas.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
+                                <div class="text-white">
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Bootcamp</h5>
+                                    <p class="mx-2">
                                         Program kelas online dengan mentor <br>
                                         dari DB Academy dan luar yang <br>
-                                        sudah expert di bidangnya <br>
+                                        sudah expert di bidangnya
                                     </p>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>   
         </section>
@@ -104,67 +107,28 @@
                     </h3>
                 </div>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div>                        
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto py-2" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
-                    <div class="col-6 col-md-2">
-                        <div class="card d-flex flex-column img-fluid mb-3 pb-2" style="background-image: url('/img/digital_mkt.png'); min-height:16rem; background-size: cover; background-position: center;">
-                            <h1 class="card-title text-center mt-auto text-warning">Digital Marketing</h1>
-                            <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.5rem 1rem;">Skill</p>
-                        </div> 
-                    </div>
+                    @foreach([
+                        'dm' => 'DIGITAL MARKETING', 
+                        'cc' => 'CONTENT CREATOR', 
+                        'prog' => 'PROGRAMMING',
+                        'ui' => 'UI UX DESIGN', 
+                        'edtcontent' => 'EDITING CONTENT', 
+                        'journalist' => 'JOURNALIST & COPYWRITING', 
+                        'leadership' => 'LEADERSHIP', 
+                        'teamwork' => 'TEAMWORK',
+                        'strategic' => 'STRATEGIC THINKING', 
+                        'communication' => 'COMMUNICATION'] as $key => $skill)
+                        <div class="col-6 col-md-2 mb-3">
+                            <div class="card d-flex flex-column img-fluid pb-2 background-card-{{ $key }}" style="min-height: 16rem; background-size: cover; background-position: center;">
+                                <h4 class="card-title text-center mt-auto mb-1 text-warning">{{ $skill }}</h4>
+                                <p class="card-text bg-white text-center rounded-5 mx-auto" style="color: black; display: inline-block; padding: 0.1rem 1rem;">Skill</p>
+                            </div>
+                        </div>
+
+                        @if (($loop->iteration % 5=== 0) && !$loop->last)
+                            <div class="w-100 d-none d-md-block"></div>
+                        @endif
+                    @endforeach
                 </div>
             </div>
         </section>
@@ -179,20 +143,20 @@
                     <div class="col-md-7 align-items-center">
                         <div class="d-flex flex-column"></div>
                         <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%"> 
-                            <span> Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
-                                berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br></span>
+                            <span>Koneksi Indsutri dengan bekerja  <br>
+                                sama dengan stakeholder terkait<br></span>
                         </p> 
                         <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%">
-                            Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
-                            berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
+                            Fokus pada praktik dengan belajar <br>
+                            sambil melakukan proyek nyata<br>
                         </p> 
                         <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%">
-                            Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
-                            berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
+                            Materi selalu diperbarui mengikuti <br>
+                            perkembangan teknologi terkini <br>
                         </p> 
                         <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: flex; max-width:95%">
-                            Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
-                            berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
+                            Real program untuk mengasah soft <br>
+                            skill, hard skill dan support skill <br>
                         </p> 
                     </div>
                 </div>
