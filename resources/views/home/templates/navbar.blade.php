@@ -9,16 +9,16 @@
       <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav mx-auto fs-5">
               <li class="nav-item mx-3">
-                  <a class="nav-link active text-primary" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item mx-3">
-                  <a class="nav-link active text-primary" href="#">About</a>
+                  <a class="nav-link active text-primary" href="#about">About</a>
               </li>
               <li class="nav-item mx-3">
-                  <a class="nav-link active text-primary" href="#">Blog</a>
+                  <a class="nav-link active text-primary" href="#blog">Blog</a>
               </li>
               <li class="nav-item mx-3">
-                  <a class="nav-link active text-primary" href="#">Contact</a>
+                  <a class="nav-link active text-primary" href="#contact">Contact</a>
               </li>
           </ul>
           <div class="d-flex">

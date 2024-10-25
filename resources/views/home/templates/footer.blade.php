@@ -5,10 +5,10 @@
                 </div>
                 <div class="container-fluid py-5">
                     <div class="row d-flex  justify-content-center">
-                        <a class="col-2 col-md-1 text-white text-decoration-none tex-start" href="">Home</a>
-                        <a class="col-2 col-md-1 text-white text-decoration-none" href="">About</a>
-                        <a class="col-2 col-md-1 text-white text-decoration-none" href="">Blog</a>
-                        <a class="col-2 col-md-1 text-white text-decoration-none" href="">Contact</a>
+                        <a class="col-2 col-md-1 text-white text-decoration-none tex-start" href="#home">Home</a>
+                        <a class="col-2 col-md-1 text-white text-decoration-none" href="#about">About</a>
+                        <a class="col-2 col-md-1 text-white text-decoration-none" href="#blog">Blog</a>
+                        <a class="col-2 col-md-1 text-white text-decoration-none" href="#contact">Contact</a>
                     </div>
                 </div>
     </div>

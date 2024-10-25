@@ -6,13 +6,13 @@
     </section>
 
     <main>
-        <section>
+        <section id="home">
             <div class="d-flex align-items-center justify-content-center flex-column">
                 <img src="/img/Banner.png" class="img-fluid" style="min-height: 15rem" alt="">    
             </div>
         </section>      
 
-        <section>
+        <section id="about">
             <div class="container-fluid mt-5">
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-4 d-flex justify-content-end">
@@ -98,7 +98,7 @@
                 </div>   
         </section>
 
-        <section>
+        <section id="blog">
             <div class="container d-flex flex-column align-items-center mt-5">
                 <div class="background-container rounded-5  d-flex align-items-center mb-5">
                     <h3 class="py-2 pr-3 text-center">
@@ -134,7 +134,7 @@
         </section>
 
 
-        <section class="my-5">
+        <section id="contact" class="my-5">
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
                     <div class="col-md-5">
