@@ -23,6 +23,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Smooch&display=swap" rel="stylesheet">
+    <script src="{{ asset('js/app.js') }}"></script>
     <style>
         .roboto-thin {
             font-family: "Roboto", sans-serif;
@@ -268,7 +269,13 @@
             transform: scale(1.05);
             transition: transform 0.3s ease;
         }
-
+        
+        .navbar-nav.active {
+            display: inline-block;
+            justify-content: center;
+            align-items: center
+        }   
+    
     </style>
 </head>
 
@@ -277,7 +284,22 @@
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-oBqDVmMz4fnFO9gybNSeRl2R7q/8P5w5NH8g/t8WjTBTk07izN5WgJ5nB3lXwW5a" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbarNav = document.querySelector("#navbarNav");
+            const hamburger = document.querySelector("#hamburger-menu");
 
+            hamburger.addEventListener("click", function () {
+                navbarNav.classList.toggle("show");
+            });
+        
+        });
+        
+        document.addEventListener("click", function (e) {
+                if (!hamburger.contains(e.target) && !navbarNav.contains(e.target))
+                    navbarNav.classList.remove("active");
+            });
+    </script>
 <footer>
 @yield('footer')
 </footer>
