@@ -21,7 +21,7 @@
                     <div class="col-md-6 ">
                         <h1 class="text-secondary">Tentang Kami</h1>
                         <img src="/img/main-content.png" style="min-width: 95%" class="img-fluid rounded-3" alt="">
-                        <p class="bg-warning py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: block; max-width:95%">
+                        <p class="background-gradient-yellow py-3 mt-3 rounded-3 px-3 mr-5 text-left fs-5" style="color:blue; position: relative; display: block; max-width:95%">
                             Program yang dibentuk oleh DB Klik, Perusahaan IT Indonesia. Kami <br>
                             berkomitmen untuk berkontribusi dalam dunia pendidikan di Indonesia <br>
                             <br>
@@ -35,44 +35,46 @@
         </section>
 
         <section id="dbAcademyOffer" class="background-content mt-5" style="position: relative; display:inherit">
-            <h1 class="text-center pt-5">DB Academy <span class="text-warning">Tawarkan</span></h1>
+            <h1 class="text-center text-white pt-5">DB Academy <span class="text-warning">Tawarkan</span></h1>
                 <div class="container pt-5 pb-5">
                     <div class="row d-flex align-items-center">
                 
                         <div class="col-6 col-sm-6 col-md-6 mb-2 d-flex align-items-center justify-content-center">
                             <div class="d-flex flex-row bg-transparent" style="border: none;">
-                                <img src="/img/icon_kelas.png" class="rounded-circle " style="width:6rem; height:6rem;" alt="...">
+                                <img src="/img/icon_intern.png" class="rounded-circle " style="width:6rem; height:6rem;" alt="...">
                                 <div class="text-white">
-                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Internship Program</h5>
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2 px-2" style="display: inline;">Internship Program</h5>
                                     <p class="mx-2">
                                         Program magang dengan real <br>
                                          project <br>
                                         yang bisa mengasah
                                     </p>
+                                    <p class="text-warning" style="font-size: 0.8em">Soft Skill,Hard Skill & Support Skill</p>
                                 </div>
                             </div>
                         </div>
                   
                         <div class="col-6 col-sm-6 col-md-6 mb-2 d-flex align-items-center justify-content-center">
                             <div class="d-flex flex-row bg-transparent" style="border: none;">
-                                <img src="/img/icon_kelas.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
+                                <img src="/img/icon.group.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
                                 <div class="text-white">
-                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Group Project</h5>
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2 pe-5 ps-2" style="display: inline;">Group Project</h5>
                                     <p class="mx-2">
                                         Internship group project berbagai role <br>
                                         position bisa dipilih melalui program </p>
                                     </p>
+                                    <p class="text-warning" style="font-size: 0.8em">#DreamBig Group Project</p>
                                 </div>
                             </div>
                         </div>
             
                         <div class="col-6 col-sm-6 col-md-6 d-flex align-items-center justify-content-center">
                             <div class="d-flex flex-row bg-transparent" style="border: none;">
-                                <img src="/img/icon_kelas.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
+                                <img src="/img/icon_bootcamp.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
                                 <div class="text-white">
-                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Kelas Coding</h5>
-                                    <p class="mx-2">
-                                        Program coding yang dibentuk <br>
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2 pe-4 ps-2" style="display: inline;">Kelas Coding</h5>
+                                    <p class="mx-2 pe-1">
+                                        Program coding yang dibentuk<br>
                                         untuk anak usia dini melalui <br>
                                         program DB EDU <br>
                                     </p>
@@ -84,7 +86,7 @@
                             <div class="d-flex flex-row bg-transparent" style="border: none;">
                                 <img src="/img/icon_kelas.png" class="rounded-circle" style="width:6rem; height:6rem;" alt="...">
                                 <div class="text-white">
-                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2" style="display: inline;">Bootcamp</h5>
+                                    <h5 class="bg-light text-primary w-100 rounded-2 text-center mx-2 pe-5 ps-2" style="display: inline;">Bootcamp</h5>
                                     <p class="mx-2">
                                         Program kelas online dengan mentor <br>
                                         dari DB Academy dan luar yang <br>
@@ -103,7 +105,7 @@
                 <div class="background-container rounded-5  d-flex align-items-center mb-5">
                     <h3 class="py-2 pr-3 text-center">
                         <span class="background-content p-5 rounded-circle text-warning">Skill</span>
-                        <span class="text-primary px-2">yang didapat</span>
+                        <span class="text-primary ps-2 pe-4 text-black">yang didapat</span>
                     </h3>
                 </div>
                 <div class="row d-flex justify-content-center">

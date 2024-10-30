@@ -12,7 +12,7 @@
                     </div>
                 </div>
     </div>
-    <div style="height: 70px;" class="bg-warning d-flex justify-content-center flex-row">
+    <div style="height: 70px;" class="background-gradient-yellow d-flex justify-content-center flex-row">
         <img src="/img/instagram.png" class="mx-2 my-3" alt="">
         <img src="/img/tiktok.png" class="mx-2 my-3">
         <img src="/img/youtube.png" class="mx-2 my-3" alt="">
