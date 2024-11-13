@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('chapters', function (Blueprint $table) {
-            $table->id();
+            $table->BigIncrements('id');
             $table->foreignId('course_id')->constrained('courses')->onDelete('cascade')->comment('Referensi ke courses.id');
             $table->string('title')->comment('Judul bab');
             $table->text('description')->nullable()->comment('Deskripsi bab');
