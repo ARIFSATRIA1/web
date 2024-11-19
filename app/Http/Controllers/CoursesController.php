@@ -35,4 +35,9 @@ class CoursesController extends Controller
             return redirect('/admin/courses/create')->withErrors(['error' => 'Something went wrong: ' . $th->getMessage()]);
         }
     }
+
+
+    public function getListCourse() {
+        $books = Courses::all();
+    }
 }
