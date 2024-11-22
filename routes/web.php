@@ -9,12 +9,12 @@ Route::get('/', [GuestController::class, 'index'])->name('home');
 Route::get('/login', [GuestController::class, 'login'])->name('login');
 Route::get('/register', [GuestController::class, 'register'])->name('register');
 
-Route::post('/postregister', [AuthController::class, 'postRegister']);
-Route::post('postlogin', [AuthController::class, 'postLogin']);
+// Route::post('/postregister', [AuthController::class, 'postRegister']);
+// Route::post('postlogin', [AuthController::class, 'postLogin']);
 
 
-Route::middleware(['admin'])->group(function () {
-    Route::get('/admin', [AdminController::class, 'index']);
-});
+// Route::middleware(['admin'])->group(function () {
+//     Route::get('/admin', [AdminController::class, 'index']);
+// });
 
 
