@@ -13,8 +13,8 @@ Route::post('/postregister', [AuthController::class, 'postRegister']);
 Route::post('postlogin', [AuthController::class, 'postLogin']);
 
 
-Route::middleware(['admin'])->group(function () {
-    Route::get('/admin', [AdminController::class, 'index']);
+// Route::middleware(['admin'])->group(function () {
+Route::get('/admin', [AdminController::class, 'index']);
+Route::get('/', function () {
+    return view('welcome');
 });
-
-
