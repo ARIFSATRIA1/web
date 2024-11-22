@@ -13,10 +13,8 @@ return new class extends Migration
             $table->bigIncrements('id');
             $table->string('name');
             $table->string('email')->unique();
-            $table->string('role');
+            $table->enum('role', ['user', 'admin'])->default('user');
             $table->string('password');
-            $table->string('remember_token');
-            $table->string('profile_image')->nullable()->comment('Foto profil pengguna');
             $table->timestamps();
         });
 
