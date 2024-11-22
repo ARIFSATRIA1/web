@@ -4,7 +4,15 @@
             <img src="/img/Logo.png" alt="Logo" class="navbar-brand">
         </a>
 
-        <button id="hamburger-menu" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button 
+            id="hamburger-menu" 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" 
+            aria-controls="navbarNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -24,7 +32,12 @@
                 </li>
             </ul>
             <div class="d-flex">
-                <button class="btn rounded-pill background-gradient-yellow" type="button">Sign Up</button>
+                <button 
+                    class="btn rounded-pill background-gradient-yellow" 
+                    type="button" 
+                    onclick="window.location.href='{{ route('register') }}'">
+                    Sign Up
+                </button>
             </div>
         </div>
     </div>
