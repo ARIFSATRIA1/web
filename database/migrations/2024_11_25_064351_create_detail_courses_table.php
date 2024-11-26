@@ -12,7 +12,7 @@ return new class extends Migration
         Schema::create('detail_courses', function (Blueprint $table) {
             $table->id();
             $table->unsignedBigInteger('courses_id'); 
-            $table->string('chapter_title'); 
+            $table->string('chapter_title')->nullable(); 
             $table->string('video_url')->nullable(); 
             $table->text('text_content')->nullable(); 
             $table->timestamps();

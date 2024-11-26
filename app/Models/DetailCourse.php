@@ -7,7 +7,15 @@ use Illuminate\Database\Eloquent\Relations\belongsTo;
 
 class DetailCourse extends Model
 {
-    //
+    
+    protected $table = 'detail_courses';
+
+    protected $fillable = [
+        'courses_id',
+        'chapter_title',
+        'video_url',
+        'text_content'
+    ];
 
 
     public function course(): BelongsTo
