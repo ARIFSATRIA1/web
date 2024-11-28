@@ -11,7 +11,7 @@ class GuestController extends Controller
     }
 
     public function login() {
-        return view('login.login');
+        return view('auth.login');
     }
 
     public function register() {
