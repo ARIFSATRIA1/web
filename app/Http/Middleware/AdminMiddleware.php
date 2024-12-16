@@ -16,15 +16,17 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if ($request->path() === 'error') {
+        // Allow access to error page without restrictions
+        if ($request->is('error')) {
             return $next($request);
         }
 
+        // Check if user is authenticated and has admin role
         if (Auth::check() && Auth::user()->role === 'admin') {
             return $next($request);
         }
 
-        return redirect('/error')->withErrors(['error' => 'Unauthorized access']);
+        // Redirect to error page with an error message if unauthorized
+        return redirect()->route('error')->withErrors(['error' => 'Unauthorized access']);
     }
-
 }
