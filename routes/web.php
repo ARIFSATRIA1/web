@@ -10,3 +10,8 @@ Route::get('/login', [GuestController::class, 'login'])->name('login');
 Route::get('/register', [GuestController::class, 'register'])->name('register');
 
 
+Route::middleware(['AdminMiddleware'])->group(function () {
+    Route::get('/admin', [AdminController::class, 'index']);
+    
+    
+});

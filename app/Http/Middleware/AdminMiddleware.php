@@ -16,7 +16,6 @@ class AdminMiddleware
      */
     public function handle(Request $request, Closure $next): Response
     {
-        // Exclude the /error route from this middleware
         if ($request->path() === 'error') {
             return $next($request);
         }
