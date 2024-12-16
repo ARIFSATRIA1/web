@@ -12,9 +12,4 @@ Route::get('/register', [GuestController::class, 'register'])->name('register');
 
 Route::post('/loginuser',[AuthController::class, 'postLogin']);
 Route::post('/registeruser', [AuthController::class, 'postRegister']);
-
-Route::middleware(['AdminMiddleware'])->group(function () {
-    Route::get('/admin', [AdminController::class, 'index']);
-
-    
-});
+Route::get('/admin', [AdminController::class, 'index']);
