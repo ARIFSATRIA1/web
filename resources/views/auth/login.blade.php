@@ -40,13 +40,17 @@
                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                       <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Login</button>
                     </div>
-  
+
+                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                      <a href="/register" class="text-primary">Don't have an account? Sign up here</a>
+                  </div>                  
+
                   </form>
   
                 </div>
-                <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center justify-content-center order-1 order-lg-2">
   
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                  <img src="img/Logo.png"
                     class="img-fluid" alt="Sample image">
   
                 </div>
