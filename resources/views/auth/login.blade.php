@@ -11,27 +11,9 @@
                 <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
   
                   <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
-
-                  @if ($errors->any())
-                                    <div class="alert alert-danger">
-                                        <ul>
-                                            @foreach ($errors->all() as $error)
-                                                <li>{{ $error }}</li>
-                                            @endforeach
-                                        </ul>
-                                    </div>
-                                @endif
   
-                  <form class="mx-1 mx-md-4" method="POST" action="/registeruser">
+                  <form class="mx-1 mx-md-4" method="POST" action="/loginuser">
                     @csrf
-                    <div class="d-flex flex-row align-items-center mb-4">
-                      <i class="fas fa-user fa-lg me-3 fa-fw"></i>
-                      <div data-mdb-input-init class="form-outline flex-fill mb-0">
-                        <input type="text" id="name" class="form-control" name="name" />
-                        <label class="form-label" for="form3Example1c">Your Name</label>
-                      </div>
-                    </div>
-  
                     <div class="d-flex flex-row align-items-center mb-4">
                       <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                       <div data-mdb-input-init class="form-outline flex-fill mb-0">
@@ -48,7 +30,6 @@
                       </div>
                     </div>
   
-  
                     <div class="form-check d-flex justify-content-center mb-5">
                       <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3c" />
                       <label class="form-check-label" for="form2Example3">
@@ -57,9 +38,13 @@
                     </div>
   
                     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                      <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Register</button>
+                      <button  type="submit" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg">Login</button>
                     </div>
-  
+
+                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                      <a href="/register" class="text-primary">Don't have an account? Sign up here</a>
+                  </div>                  
+
                   </form>
   
                 </div>
@@ -67,7 +52,7 @@
   
                   <img src="img/Logo.png"
                     class="img-fluid" alt="Sample image">
-
+  
                 </div>
               </div>
             </div>
