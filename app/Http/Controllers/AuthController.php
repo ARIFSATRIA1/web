@@ -33,21 +33,21 @@ class AuthController extends Controller
 
     public function postRegister(Request $request)
     {
-        // Validate incoming request
+        
         $validated = $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|email|unique:users,email',
             'password' => 'required|string|min:8',
         ]);
     
-        // Create new user
+        
         $user = User::create([
             'name' => $validated['name'],
             'email' => $validated['email'],
             'password' => bcrypt($validated['password']),
         ]);
     
-        // Redirect to login page after successful registration
+        
         return redirect('/login')->with('success', 'Registration successful! Please login.');
     }
 
