@@ -35,7 +35,7 @@
                 <button 
                     class="btn rounded-pill background-gradient-yellow" 
                     type="button" 
-                    onclick="window.location.href='{{ route('register') }}'">
+                    onclick="window.location.href='{{ route('login') }}'">
                     Sign Up
                 </button>
             </div>
